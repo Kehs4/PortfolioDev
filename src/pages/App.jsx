@@ -95,14 +95,14 @@ function App() {
 
         <div className='projects-cards'>
           <div className='card-project'>
-            <img src="Temperatura.png" alt="Project 1" className='img-temperatura'/>
+            <img src="/public/Temperatura.png" alt="Project 1" className='img-temperatura'/>
             <h3 className='card-project-title'>Temperatura</h3>
             <p className='card-project-description'>Nesse projeto realizei uma página onde é possível visualizar dados meteorológicos em tempo real de cidades ao redor do mundo, integrado via API WeatherAPI, framework utilizado React.js</p>
             <a href='https://github.com/Kehs4/Temperatura' target="_blank" className='card-project-link'><GitHubIcon/> Código</a>
           </div>
 
           <div className='card-project'>
-            <img src="KLDigital.png" alt="Project 2" className='img-kldigital'/>
+            <img src="/public/KLDigital.png" alt="Project 2" className='img-kldigital'/>
             <h3 className='card-project-title'>KL Digital</h3>
             <p className='card-project-description'>Projeto pessoal de uma página para uma empresa que presta serviços digitais, utilizado HTML e CSS.</p>
             <a href='https://github.com/Kehs4/kldigital' target="_blank" className='card-project-link'><GitHubIcon/> Código</a>
