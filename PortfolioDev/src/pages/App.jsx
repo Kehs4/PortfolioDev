@@ -95,24 +95,24 @@ function App() {
 
         <div className='projects-cards'>
           <div className='card-project'>
-            <img src="/project1.png" alt="Project 1" />
-            <h3 className='card-project-title'>Projeto 1</h3>
-            <p className='card-project-description'>Descrição breve do projeto 1, destacando suas funcionalidades e tecnologias utilizadas.</p>
-            <a href='#' className='card-project-link'>Ver Projeto</a>
+            <img src="/Temperatura.png" alt="Project 1" className='img-temperatura'/>
+            <h3 className='card-project-title'>Temperatura</h3>
+            <p className='card-project-description'>Nesse projeto realizei uma página onde é possível visualizar dados meteorológicos em tempo real de cidades ao redor do mundo, integrado via API WeatherAPI, framework utilizado React.js</p>
+            <a href='https://github.com/Kehs4/Temperatura' target="_blank" className='card-project-link'><GitHubIcon/> Código</a>
           </div>
 
           <div className='card-project'>
-            <img src="/project2.png" alt="Project 2" />
-            <h3 className='card-project-title'>Projeto 2</h3>
-            <p className='card-project-description'>Descrição breve do projeto 2, destacando suas funcionalidades e tecnologias utilizadas.</p>
-            <a href='#' className='card-project-link'>Ver Projeto</a>
+            <img src="/KLDigital.png" alt="Project 2" className='img-kldigital'/>
+            <h3 className='card-project-title'>KL Digital</h3>
+            <p className='card-project-description'>Projeto pessoal de uma página para uma empresa que presta serviços digitais, utilizado HTML e CSS.</p>
+            <a href='https://github.com/Kehs4/kldigital' target="_blank" className='card-project-link'><GitHubIcon/> Código</a>
           </div>
 
           <div className='card-project'>
-            <img src="/project3.png" alt="Project 3" />
-            <h3 className='card-project-title'>Projeto 3</h3>
-            <p className='card-project-description'>Descrição breve do projeto 3, destacando suas funcionalidades e tecnologias utilizadas.</p>
-            <a href='#' className='card-project-link'>Ver Projeto</a>
+            
+            <h3 className='card-project-title'>In progress..</h3>
+            <p className='card-project-description'>WIP...</p>
+            <a href='https://github.com/Kehs4/' className='card-project-link'><GitHubIcon/> Perfil</a>
           </div>
         </div>
       </section>
