@@ -4,6 +4,14 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+:target { 
+  scroll-margin-top: 1em; 
+}
+
 a {
   text-decoration: none;
   color: white;
@@ -31,6 +39,11 @@ body {
   text-decoration: none;
   margin: 0 15px;
   font-weight: bold;
+}
+
+.portfolio-nav a:hover {
+  color: rgba(199, 131, 255, 0.767);
+  transition: color 0.3s ease;
 }
 
 .section-portfolio-banner {
@@ -109,6 +122,15 @@ body {
   justify-content: center;
   gap: 20px;
   margin-top: 30px;
+}
+
+.section-media a:hover {
+  color: rgba(199, 131, 255, 0.767);
+  transition: color 0.3s ease;
+}
+
+.section-media svg {
+  font-size: 2.5rem;
 }
 
 .section-portfolio-about {
@@ -233,6 +255,11 @@ body {
   -webkit-text-fill-color: transparent; 
 }
 
+.skill-image svg {
+  font-size: 3rem;
+  color: rgb(129, 21, 201);
+}
+
 .skills-card-title {
   font-size: 1.3rem;
   color: white;
@@ -261,6 +288,7 @@ body {
 .skills-card:hover {
   transform: translateY(-10px);
   transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(236, 92, 255, 0.5);
 }
 
 .card-skill {

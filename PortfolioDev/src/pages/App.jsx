@@ -1,5 +1,12 @@
 import { useState } from 'react'
 import './App.css'
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import GitHubIcon from '@mui/icons-material/GitHub';
+import InstagramIcon from '@mui/icons-material/Instagram';
+import EmailIcon from '@mui/icons-material/Email';
+import CodeIcon from '@mui/icons-material/Code';
+import DatasetIcon from '@mui/icons-material/Dataset';
+import ComputerIcon from '@mui/icons-material/Computer';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -21,7 +28,7 @@ function App() {
         </div>
 
         <div>
-          <button className='btn-projects'>Entre em Contato</button>
+          <a href="#contact"><button className='btn-projects'>Entre em Contato</button></a>
         </div>
       </div>
 
@@ -41,37 +48,39 @@ function App() {
 
         <div className='btns-section'>
           <div>
-            <button className='btn-projects'>Ver Projetos</button>
+            <a href='#projects'><button className='btn-projects' >Ver Projetos</button></a>
 
           </div>
 
           <div>
-            <button className='btn-section-cv'>Download CV</button>
+            <a href="/Curriculo Kleyton Holanda.pdf" download="Curriculo Kleyton Holanda.pdf">
+              <button className='btn-section-cv'>Download CV</button>
+            </a>
           </div>
         </div>
 
         <div className='section-media'>
           <div>
-            <a href='https://www.linkedin.com/in/kleytonholanda/' target='_blank'><img src="/linkedin.png" alt="LinkedIn" /></a>
+            <a href='https://www.linkedin.com/in/kleytonholanda/' target='_blank'><LinkedInIcon /></a>
           </div>
 
           <div>
-            <a href='github.com/kleytonholanda' target='_blank'><img src="/github.png" alt="GitHub" /></a>
+            <a href='https://github.com/Kehs4' target='_blank'><GitHubIcon /></a>
           </div>
 
           <div>
-            <a href='https://www.instagram.com/kleyton.holanda/' target='_blank'><img src="/instagram.png" alt="Instagram" /></a>
+            <a href='https://www.instagram.com/kleytonholanda/' target='_blank'><InstagramIcon /></a>
           </div>
 
           <div>
-            <a href='mailto:kleytonholanda1@hotmail.com' target='_blank'><img src="/email.png" alt="Email" /></a>
+            <a href='mailto:kleytonholanda1@hotmail.com' target='_blank'><EmailIcon /></a>
           </div>
         </div>
       </section>
 
       <section className='section-portfolio-about' id='about'>
         <div>
-          <h2 className='about-title'>Sobre Mim</h2>
+          <h2 className='about-title' id='#about'>Sobre Mim</h2>
         </div>
 
         <div>
@@ -81,7 +90,7 @@ function App() {
 
       <section className='section-portfolio-projects' id='projects'>
         <div>
-          <h2 className='projects-title'>Projetos</h2>
+          <h2 className='projects-title' id='#projects'>Projetos</h2>
         </div>
 
         <div className='projects-cards'>
@@ -110,7 +119,7 @@ function App() {
 
       <section className='section-portfolio-skills' id='skills'>
         <div>
-          <h2 className='skills-title'>Minhas Experiências</h2>
+          <h2 className='skills-title' id='#skills'>Minhas Experiências</h2>
         </div>
 
         <div>
@@ -122,7 +131,7 @@ function App() {
 
           <div className='skills-card'>
             <div>
-              <h1 className='skill-image'>F</h1>
+              <h1 className='skill-image'><CodeIcon /></h1>
             </div>
 
             <div>
@@ -163,7 +172,7 @@ function App() {
 
           <div className='skills-card'>
             <div>
-              <h1 className='skill-image'>B</h1>
+              <h1 className='skill-image'><DatasetIcon /></h1>
             </div>
 
             <div>
@@ -205,7 +214,7 @@ function App() {
 
           <div className='skills-card'>
             <div>
-              <h1 className='skill-image'>O</h1>
+              <h1 className='skill-image'><ComputerIcon /></h1>
             </div>
             <div>
               <h1 className='skills-card-title'>Outras Habilidades</h1>
@@ -247,7 +256,7 @@ function App() {
 
       <section className='section-portfolio-contact' id='contact'>
         <div>
-          <h2 className='contact-title'>Contato</h2>
+          <h2 className='contact-title' id='#contact'>Contato</h2>
         </div>
 
         <div className='box-contact-form'>
